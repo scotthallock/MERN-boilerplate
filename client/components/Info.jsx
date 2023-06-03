@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const InfoContainer = styled.div`
+  width: 100%;
   padding: 1rem;
   background-color: white;
   border: 1px solid black;
