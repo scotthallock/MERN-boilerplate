@@ -7,7 +7,7 @@ const noteRouter = require('./routers/noteRouter');
 
 const { MONGO_URI } = process.env;
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 if (!MONGO_URI) throw new Error('Missing MONGO_URI environment variable.');
 
